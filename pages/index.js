@@ -32,7 +32,7 @@ export const Banner = ({
 				<br />
 				{title2}
 			</Text>
-			<Text fontSize='lg' paddingTop='3' paddingBottom='3' color='gray.900'>
+			<Text fontSize='lg' paddingTop='3.1' paddingBottom='3.1' color='gray.900'>
 				{desc1}
 				<br />
 				{desc2}
@@ -52,7 +52,7 @@ const Home = ({ propertiesForSale, propertiesForRent }) => (
 			purpose='RENT A HOME'
 			title1='Rental Homes for'
 			title2='Everyone'
-			desc1=' Explore from Apartments, builder floors, villas'
+			desc1=' Explore from Apartments, Builder Floors, Villas'
 			desc2='and more'
 			buttonText='Explore Renting'
 
@@ -68,7 +68,7 @@ const Home = ({ propertiesForSale, propertiesForRent }) => (
 			purpose='BUY A HOME'
 			title1=' Find, Buy & Own Your'
 			title2='Dream Home'
-			desc1=' Explore from Apartments, land, builder floors,'
+			desc1=' Explore from Apartments, Land, Builder Floors,'
 			desc2=' villas and more'
 			buttonText='Explore Buying'
 			linkName='/search?purpose=for-sale'

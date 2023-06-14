@@ -37,10 +37,10 @@ const Navbar = () => (
 						<MenuItem icon={<BsSearch />}>Search</MenuItem>
 					</Link>
 					<Link href='/search?purpose=for-sale' passHref>
-						<MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
+						<MenuItem icon={<FcAbout />}>Buy a Property</MenuItem>
 					</Link>
 					<Link href='/search?purpose=for-rent' passHref>
-						<MenuItem icon={<FiKey />}>Rent Property</MenuItem>
+						<MenuItem icon={<FiKey />}>Rent a Property</MenuItem>
 					</Link>
 				</MenuList>
 			</Menu>
